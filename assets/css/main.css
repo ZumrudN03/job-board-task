@@ -1,0 +1,761 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-height: 95vh;
+  background-size: cover;
+  background: url("https://preview.colorlib.com/theme/jobboard2/img/banner/banner.png.webp");
+}
+.header .navbar {
+  max-width: 90%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 2rem;
+}
+.header .navbar .navmenu ul {
+  display: flex;
+}
+.header .navbar .navmenu ul li {
+  padding-left: 3rem;
+  font-weight: 500;
+}
+.header .navbar .navmenu ul li a {
+  color: white;
+}
+.header .navbar .navmenu ul li a:hover {
+  color: rgb(0, 211, 99);
+  transition: 400ms;
+}
+.header .navbar .log-in {
+  display: flex;
+  align-items: center;
+}
+.header .navbar .log-in p a {
+  color: rgb(255, 255, 255);
+  padding-right: 1rem;
+}
+.header .navbar .log-in .btn a {
+  padding: 1rem 2rem;
+  border: 1px solid rgb(0, 211, 99);
+  background-color: rgb(0, 211, 99);
+  border-radius: 5px;
+  font-weight: 500;
+  color: white;
+}
+.header .navbar .log-in .btn a:hover {
+  color: rgb(0, 211, 99);
+  background-color: transparent;
+  transition: 200ms;
+}
+.header .Find-your-Dream-Job {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+.header .Find-your-Dream-Job .part-one {
+  display: flex;
+  flex-direction: column;
+}
+.header .Find-your-Dream-Job .part-one .text {
+  color: white;
+  font-size: 1.75rem;
+}
+.header .Find-your-Dream-Job .part-one .text .we {
+  font-size: 1rem;
+  padding: 1rem 0rem;
+}
+.header .Find-your-Dream-Job .part-one .btn {
+  padding-top: 1rem;
+}
+.header .Find-your-Dream-Job .part-one .btn a {
+  padding: 1rem 2rem;
+  border: 1px solid rgb(0, 211, 99);
+  background-color: rgb(0, 211, 99);
+  border-radius: 5px;
+  font-weight: 500;
+  color: white;
+}
+.header .Find-your-Dream-Job .part-one .btn a:hover {
+  color: rgb(0, 211, 99);
+  background-color: transparent;
+  transition: 200ms;
+}
+
+.container {
+  max-width: 100%;
+}
+.container #form-section {
+  max-width: 80%;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+.container #form-section .input {
+  display: flex;
+  padding-bottom: 2rem;
+  align-items: start;
+}
+.container #form-section .input input {
+  padding: 1rem;
+  border: none;
+  border: 1px solid lightgray;
+  outline: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+.container #form-section .input select {
+  padding: 1rem;
+  padding-right: 5rem;
+  border: none;
+  border: 1px solid lightgray;
+  outline: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: gray;
+  margin: 0rem 1rem;
+}
+.container #form-section .input .btn {
+  margin-left: 1rem;
+  display: flex;
+  text-align: center;
+}
+.container #form-section .input .btn a {
+  padding: 1rem 2rem;
+  border: 1px solid rgb(0, 211, 99);
+  background-color: rgb(0, 211, 99);
+  border-radius: 5px;
+  font-weight: 500;
+  color: white;
+  font-weight: 500;
+}
+.container #form-section .input .btn a:hover {
+  color: rgb(0, 211, 99);
+  background-color: transparent;
+  transition: 400ms;
+}
+.container #form-section .popular-search {
+  display: flex;
+  text-align: center;
+}
+.container #form-section .popular-search span {
+  font-size: 1.2rem;
+  padding-right: 5px;
+}
+.container #form-section .popular-search .search a {
+  border: 1px solid rgb(25, 142, 248);
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(25, 142, 248);
+  margin: 0px 5px;
+  opacity: 0.7;
+  transition: 300ms;
+}
+.container #form-section .popular-search .search a:hover {
+  opacity: 1;
+}
+.container #Popular-Categories {
+  max-width: 100%;
+  background-color: rgb(245, 247, 250);
+  padding-top: 5rem;
+  min-height: 50vh;
+}
+.container #Popular-Categories .popular-categories {
+  max-width: 80%;
+  margin: auto;
+}
+.container #Popular-Categories .popular-categories h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: rgb(0, 29, 56);
+  padding-bottom: 2rem;
+}
+.container #Popular-Categories .popular-categories .cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+}
+.container #Popular-Categories .popular-categories .cards .card1 {
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 1rem;
+  max-width: 250px;
+}
+.container #Popular-Categories .popular-categories .cards .card1 .title {
+  font-size: 1.25rem;
+  color: rgb(0, 29, 56);
+  padding-bottom: 1rem;
+}
+.container #Popular-Categories .popular-categories .cards .card1 .title:hover {
+  color: rgb(0, 211, 99);
+  text-decoration: underline;
+}
+.container #Popular-Categories .popular-categories .cards .card1 p {
+  color: gray;
+}
+.container #Popular-Categories .popular-categories .cards .card1 p span {
+  color: rgb(25, 142, 248);
+  padding: 4px 15px;
+  background-color: lightblue;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.container #Popular-Categories .popular-categories .cards .card1:hover {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  transition: 500ms;
+}
+.container #Popular-Categories .popular-categories .cards .card2 {
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 1rem;
+  max-width: 250px;
+}
+.container #Popular-Categories .popular-categories .cards .card2 .title {
+  font-size: 1.25rem;
+  color: rgb(0, 29, 56);
+  padding-bottom: 1rem;
+}
+.container #Popular-Categories .popular-categories .cards .card2 .title:hover {
+  color: rgb(0, 211, 99);
+  text-decoration: underline;
+}
+.container #Popular-Categories .popular-categories .cards .card2 p {
+  color: gray;
+}
+.container #Popular-Categories .popular-categories .cards .card2 p span {
+  color: rgb(25, 142, 248);
+  padding: 4px 15px;
+  background-color: lightblue;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.container #Popular-Categories .popular-categories .cards .card2:hover {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  transition: 500ms;
+}
+.container #Popular-Categories .popular-categories .cards .card3 {
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 1rem;
+  max-width: 250px;
+}
+.container #Popular-Categories .popular-categories .cards .card3 .title {
+  font-size: 1.25rem;
+  color: rgb(0, 29, 56);
+  padding-bottom: 1rem;
+}
+.container #Popular-Categories .popular-categories .cards .card3 .title:hover {
+  color: rgb(0, 211, 99);
+  text-decoration: underline;
+}
+.container #Popular-Categories .popular-categories .cards .card3 p {
+  color: gray;
+}
+.container #Popular-Categories .popular-categories .cards .card3 p span {
+  color: rgb(25, 142, 248);
+  padding: 4px 15px;
+  background-color: lightblue;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.container #Popular-Categories .popular-categories .cards .card3:hover {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  transition: 500ms;
+}
+.container #Popular-Categories .popular-categories .cards .card4 {
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 1rem;
+  max-width: 250px;
+}
+.container #Popular-Categories .popular-categories .cards .card4 .title {
+  font-size: 1.25rem;
+  color: rgb(0, 29, 56);
+  padding-bottom: 1rem;
+}
+.container #Popular-Categories .popular-categories .cards .card4 .title:hover {
+  color: rgb(0, 211, 99);
+  text-decoration: underline;
+}
+.container #Popular-Categories .popular-categories .cards .card4 p {
+  color: gray;
+}
+.container #Popular-Categories .popular-categories .cards .card4 p span {
+  color: rgb(25, 142, 248);
+  padding: 4px 15px;
+  background-color: lightblue;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.container #Popular-Categories .popular-categories .cards .card4:hover {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  transition: 500ms;
+}
+.container #Popular-Categories .popular-categories .cards .card5 {
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 1rem;
+  max-width: 250px;
+}
+.container #Popular-Categories .popular-categories .cards .card5 .title {
+  font-size: 1.25rem;
+  color: rgb(0, 29, 56);
+  padding-bottom: 1rem;
+}
+.container #Popular-Categories .popular-categories .cards .card5 .title:hover {
+  color: rgb(0, 211, 99);
+  text-decoration: underline;
+}
+.container #Popular-Categories .popular-categories .cards .card5 p {
+  color: gray;
+}
+.container #Popular-Categories .popular-categories .cards .card5 p span {
+  color: rgb(25, 142, 248);
+  padding: 4px 15px;
+  background-color: lightblue;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.container #Popular-Categories .popular-categories .cards .card5:hover {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  transition: 500ms;
+}
+.container #Popular-Categories .popular-categories .cards .card6 {
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 1rem;
+  max-width: 250px;
+}
+.container #Popular-Categories .popular-categories .cards .card6 .title {
+  font-size: 1.25rem;
+  color: rgb(0, 29, 56);
+  padding-bottom: 1rem;
+}
+.container #Popular-Categories .popular-categories .cards .card6 .title:hover {
+  color: rgb(0, 211, 99);
+  text-decoration: underline;
+}
+.container #Popular-Categories .popular-categories .cards .card6 p {
+  color: gray;
+}
+.container #Popular-Categories .popular-categories .cards .card6 p span {
+  color: rgb(25, 142, 248);
+  padding: 4px 15px;
+  background-color: lightblue;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.container #Popular-Categories .popular-categories .cards .card6:hover {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  transition: 500ms;
+}
+.container #Popular-Categories .popular-categories .cards .card7 {
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 1rem;
+  max-width: 250px;
+}
+.container #Popular-Categories .popular-categories .cards .card7 .title {
+  font-size: 1.25rem;
+  color: rgb(0, 29, 56);
+  padding-bottom: 1rem;
+}
+.container #Popular-Categories .popular-categories .cards .card7 .title:hover {
+  color: rgb(0, 211, 99);
+  text-decoration: underline;
+}
+.container #Popular-Categories .popular-categories .cards .card7 p {
+  color: gray;
+}
+.container #Popular-Categories .popular-categories .cards .card7 p span {
+  color: rgb(25, 142, 248);
+  padding: 4px 15px;
+  background-color: lightblue;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.container #Popular-Categories .popular-categories .cards .card7:hover {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  transition: 500ms;
+}
+.container #Popular-Categories .popular-categories .cards .card8 {
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 1rem;
+  max-width: 250px;
+}
+.container #Popular-Categories .popular-categories .cards .card8 .title {
+  font-size: 1.25rem;
+  color: rgb(0, 29, 56);
+  padding-bottom: 1rem;
+}
+.container #Popular-Categories .popular-categories .cards .card8 .title:hover {
+  color: rgb(0, 211, 99);
+  text-decoration: underline;
+}
+.container #Popular-Categories .popular-categories .cards .card8 p {
+  color: gray;
+}
+.container #Popular-Categories .popular-categories .cards .card8 p span {
+  color: rgb(25, 142, 248);
+  padding: 4px 15px;
+  background-color: lightblue;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.container #Popular-Categories .popular-categories .cards .card8:hover {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  transition: 500ms;
+}
+.container #Job-Listing {
+  max-width: 100%;
+  background-color: rgb(245, 247, 250);
+  padding-top: 5rem;
+  min-height: 100vh;
+}
+.container #Job-Listing .job-listing {
+  max-width: 80%;
+  margin: auto;
+}
+.container #Job-Listing .job-listing .head {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0rem;
+}
+.container #Job-Listing .job-listing .head h4 {
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: rgb(0, 29, 56);
+}
+.container #Job-Listing .job-listing .head a {
+  padding: 1rem 2rem;
+  border: 1px solid rgb(0, 211, 99);
+  background-color: rgb(0, 211, 99);
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: transparent;
+  color: rgb(0, 211, 99);
+}
+.container #Job-Listing .job-listing .head a:hover {
+  background-color: rgb(0, 211, 99);
+  color: white;
+  transition: 400ms;
+}
+.container #Job-Listing .job-listing .card-section {
+  display: grid;
+  grid-template-columns: auto;
+}
+.container #Job-Listing .job-listing .card-section .Software-engineer {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.container #Job-Listing .job-listing .card-section .Software-engineer .card-text {
+  display: flex;
+}
+.container #Job-Listing .job-listing .card-section .Software-engineer .card-side-two .icon {
+  display: flex;
+}
+.container #Job-Listing .job-listing .card-section .Software-engineer .card-side-two .right-size {
+  display: flex;
+}
+.container #Featured-Candidates {
+  max-width: 100%;
+  background-color: rgb(245, 247, 250);
+  padding-top: 5rem;
+  min-height: 50vh;
+}
+.container #Featured-Candidates .featured-candidates {
+  max-width: 80%;
+  margin: auto;
+}
+.container #Featured-Candidates .featured-candidates h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: rgb(0, 29, 56);
+  padding-bottom: 2rem;
+}
+.container #Featured-Candidates .featured-candidates .candidates-card {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+.container #Featured-Candidates .featured-candidates .candidates-card .icon-left {
+  border: 1px solid transparent;
+  background-color: rgb(127, 193, 253);
+  opacity: 0.5;
+  padding: 0.7rem 1rem;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+}
+.container #Featured-Candidates .featured-candidates .candidates-card .icon-left:hover {
+  opacity: 1;
+  transition: 400ms;
+}
+.container #Featured-Candidates .featured-candidates .candidates-card .candidates-card-1 {
+  background-color: white;
+  padding: 2rem 3rem;
+}
+.container #Featured-Candidates .featured-candidates .candidates-card .candidates-card-1 .name {
+  padding: 1rem 0rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.container #Featured-Candidates .featured-candidates .candidates-card .candidates-card-1 .name:hover {
+  color: rgb(0, 211, 99);
+  transition: 400ms;
+}
+.container #Featured-Candidates .featured-candidates .candidates-card .job {
+  color: gray;
+}
+.container #Featured-Candidates .featured-candidates .candidates-card-2 {
+  background-color: white;
+  padding: 2rem 3rem;
+}
+.container #Featured-Candidates .featured-candidates .candidates-card-2 .name {
+  padding: 1rem 0rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.container #Featured-Candidates .featured-candidates .candidates-card-2 .name:hover {
+  color: rgb(0, 211, 99);
+  transition: 400ms;
+}
+.container #Featured-Candidates .featured-candidates .job {
+  color: gray;
+}
+.container #Featured-Candidates .candidates-card-3 {
+  background-color: white;
+  padding: 2rem 3rem;
+}
+.container #Featured-Candidates .candidates-card-3 .name {
+  padding: 1rem 0rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.container #Featured-Candidates .candidates-card-3 .name:hover {
+  color: rgb(0, 211, 99);
+  transition: 400ms;
+}
+.container #Featured-Candidates .job {
+  color: gray;
+}
+.container .candidates-card-4 {
+  background-color: white;
+  padding: 2rem 3rem;
+}
+.container .candidates-card-4 .name {
+  padding: 1rem 0rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.container .candidates-card-4 .name:hover {
+  color: rgb(0, 211, 99);
+  transition: 400ms;
+}
+.container .candidates-card-4 .job {
+  color: gray;
+}
+.container .icon-right {
+  border: 1px solid transparent;
+  background-color: rgb(127, 193, 253);
+  opacity: 0.5;
+  padding: 0.7rem 1rem;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  cursor: pointer;
+}
+.container .icon-right:hover {
+  opacity: 1;
+  transition: 400ms;
+}
+.container #Top-Companies {
+  max-width: 100%;
+  background-color: rgb(245, 247, 250);
+  padding-top: 5rem;
+}
+.container #Top-Companies .top-companies {
+  max-width: 80%;
+  margin: auto;
+}
+.container #Top-Companies .top-companies .top-companies-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0rem;
+}
+.container #Top-Companies .top-companies .top-companies-head h4 {
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: rgb(0, 29, 56);
+}
+.container #Top-Companies .top-companies .top-companies-head a {
+  padding: 1rem 2rem;
+  border: 1px solid rgb(0, 211, 99);
+  background-color: rgb(0, 211, 99);
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: transparent;
+  color: rgb(0, 211, 99);
+}
+.container #Top-Companies .top-companies .top-companies-head a:hover {
+  background-color: rgb(0, 211, 99);
+  color: white;
+  transition: 400ms;
+}
+.container #Top-Companies .top-companies .top-companies-card {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-1 {
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 1rem;
+  max-width: 250px;
+  padding: 2rem 1rem;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-1 .name {
+  font-size: 1.25rem;
+  color: rgb(0, 29, 56);
+  padding-bottom: 1rem;
+  padding: 1rem 0rem;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-1 .position span {
+  color: rgb(25, 142, 248);
+  padding: 4px 15px;
+  background-color: lightblue;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-1 .position p {
+  color: gray;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-2 {
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 1rem;
+  max-width: 250px;
+  padding: 2rem 1rem;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-2 .name {
+  font-size: 1.25rem;
+  color: rgb(0, 29, 56);
+  padding-bottom: 1rem;
+  padding: 1rem 0rem;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-2 .position span {
+  color: rgb(25, 142, 248);
+  padding: 4px 15px;
+  background-color: lightblue;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-2 .position p {
+  color: gray;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-3 {
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 1rem;
+  max-width: 250px;
+  padding: 2rem 1rem;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-3 .name {
+  font-size: 1.25rem;
+  color: rgb(0, 29, 56);
+  padding-bottom: 1rem;
+  padding: 1rem 0rem;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-3 .position span {
+  color: rgb(25, 142, 248);
+  padding: 4px 15px;
+  background-color: lightblue;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-3 .position p {
+  color: gray;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-4 {
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 1rem;
+  max-width: 250px;
+  padding: 2rem 1rem;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-4 .name {
+  font-size: 1.25rem;
+  color: rgb(0, 29, 56);
+  padding-bottom: 1rem;
+  padding: 1rem 0rem;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-4 .position span {
+  color: rgb(25, 142, 248);
+  padding: 4px 15px;
+  background-color: lightblue;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.container #Top-Companies .top-companies .top-companies-card .tp-c-4 .position p {
+  color: gray;
+}
+.container #Looking-for {
+  max-width: 100%;
+  background-color: rgb(245, 247, 250);
+  padding-top: 5rem;
+}
+.container #Looking-for .looking-for {
+  max-width: 100%;
+  min-height: 50vh;
+  background-color: rgb(43, 155, 255);
+}
+.container #Looking-for .looking-for .for-job {
+  max-width: 50%;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  background-size: cover;
+  background: url("https://preview.colorlib.com/theme/jobboard2/img/job/1.png.webp");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}/*# sourceMappingURL=main.css.map */

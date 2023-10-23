@@ -1,0 +1,30 @@
+@mixin btn{
+    padding: 1rem 2rem;
+    border: 1px solid rgba(0,211,99,255);
+    background-color: rgba(0,211,99,255);
+    border-radius: 5px;
+    font-weight: 500;
+}
+@mixin card {
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 1rem;
+  max-width: 250px;
+}
+@mixin card-title {
+  font-size: 1.25rem;
+  color: rgba(0, 29, 56, 255);
+  padding-bottom: 1rem;
+}
+@mixin card-span {
+  color: rgba(25, 142, 248, 255);
+  padding: 4px 15px;
+  background-color: lightblue;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+@mixin section-start{
+    max-width: 100%;
+        background-color: rgba(245,247,250,255);
+        padding-top: 5rem;
+}

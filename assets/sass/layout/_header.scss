@@ -1,0 +1,92 @@
+.header{
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 95vh;
+    background-size: cover;
+    background: url("https://preview.colorlib.com/theme/jobboard2/img/banner/banner.png.webp");
+    .navbar{
+        max-width: 90%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        padding-top: 2rem;
+        .navmenu{
+            ul{
+                display: flex;
+                li{
+                    padding-left: 3rem;
+                    font-weight: 500;
+                    a{
+                        color: white;
+                        &:hover{
+                            color: rgba(0,211,99,255);
+                            transition: 400ms;
+                            
+                        }
+                 
+                    }
+                    
+                }
+            }
+        }
+        .log-in{
+            display: flex;
+            align-items: center;
+            p{
+                a{
+                    color: rgb(255, 255, 255);
+                    padding-right: 1rem;
+                    
+                }
+            }
+            .btn{
+                a{
+                    @include btn;
+                    color: white;
+                    &:hover{
+                        color: rgba(0,211,99,255);
+                        background-color: transparent;
+                   
+                    transition: 200ms;
+                    }
+                }
+            }  
+        }
+    }
+    .Find-your-Dream-Job{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+        .part-one{
+            display: flex;
+            flex-direction: column;
+            .text{
+                color: white;
+                font-size: 1.75rem;
+                .we{
+                    font-size: 1rem;
+                    padding: 1rem 0rem;
+                }
+            }
+            .btn{ 
+                padding-top: 1rem;
+ 
+                    a{
+                        @include btn;
+                        color: white;
+                        &:hover{
+                            color: rgba(0,211,99,255);
+                            background-color: transparent;
+                        transition: 200ms;
+                        }
+                    }
+                     
+            }
+        }
+        
+        
+    }
+}
